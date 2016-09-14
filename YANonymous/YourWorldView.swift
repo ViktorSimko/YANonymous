@@ -36,11 +36,15 @@ class YourWorldView: UIView {
   }
   
   func commonInit() {
-    let x = UIScreen.main.bounds.width * 0.5
-    let y = UIScreen.main.bounds.height * 0.5
-    
-    let me = Anonymous(name: "Me", x: x, y: y)
+    let me = Anonymous(name: "Me")
     anonyms.append(me)
+  }
+  
+  override func layoutSubviews() {
+    super.layoutSubviews()
+    
+    anonyms.first?.x = bounds.width / 2.0
+    anonyms.first?.y = bounds.height / 2.0
   }
   
   override func draw(_ rect: CGRect) {
