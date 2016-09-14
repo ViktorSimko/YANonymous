@@ -12,6 +12,8 @@
 		28D35D571D8947680037A104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D35D551D8947680037A104 /* Main.storyboard */; };
 		28D35D591D8947680037A104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D35D581D8947680037A104 /* Assets.xcassets */; };
 		28D35D5C1D8947680037A104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D35D5A1D8947680037A104 /* LaunchScreen.storyboard */; };
+		28D35D641D8949C10037A104 /* Anonymous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D35D631D8949C10037A104 /* Anonymous.swift */; };
+		28D35D661D894A750037A104 /* YourWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D35D651D894A750037A104 /* YourWorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		28D35D581D8947680037A104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28D35D5B1D8947680037A104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28D35D5D1D8947680037A104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D35D631D8949C10037A104 /* Anonymous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anonymous.swift; sourceTree = "<group>"; };
+		28D35D651D894A750037A104 /* YourWorldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourWorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				28D35D581D8947680037A104 /* Assets.xcassets */,
 				28D35D5A1D8947680037A104 /* LaunchScreen.storyboard */,
 				28D35D5D1D8947680037A104 /* Info.plist */,
+				28D35D631D8949C10037A104 /* Anonymous.swift */,
+				28D35D651D894A750037A104 /* YourWorldView.swift */,
 			);
 			path = YANonymous;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D35D661D894A750037A104 /* YourWorldView.swift in Sources */,
+				28D35D641D8949C10037A104 /* Anonymous.swift in Sources */,
 				28D35D541D8947680037A104 /* ViewController.swift in Sources */,
 				28D35D521D8947680037A104 /* AppDelegate.swift in Sources */,
 			);
